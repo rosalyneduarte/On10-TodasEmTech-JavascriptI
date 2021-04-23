@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio Semanal - Dom + JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="/"> Logo </a>
+      <div>
+        <ul class="menu">
+          <li><a href="/"> SOBRE </a></li>
+          <li><a href="/"> Produtos </a></li>
+          <li><a href="/"> Contato </a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="section-inclusao">
+      <div class="container">
+        <h1>Inclua aqui seus livros</h1>
+        <form action="" onsubmit="exibirDados(event)">
+          <label for="titulo"> <strong> Título </strong> </label> <br />
+          <input
+            type="text"
+            id="titulo"
+            placeholder="Qual o título do Livro?"
+          /><br /><br />
+
+          <label for="autor"> <strong> Autor </strong> </label><br />
+          <input
+            type="text"
+            id="author"
+            placeholder="Nome do Autor"
+          /><br /><br />
+
+          <label for="isbn"> <strong> ISBN </strong> </label><br />
+          <input type="text" id="isbn" placeholder="Numeração" /><br /><br />
+
+          <label for="data-publicacao">
+            <strong> Data de Publicação </strong></label
+          ><br />
+          <input type="date" id="dataPublicacao" /><br /><br />
+
+          <label for="quantidade-de-paginas">
+            <strong> Quantidade de Páginas</strong> </label
+          ><br />
+          <input
+            type="number"
+            id="quantidadeDePaginas"
+            placeholder="Digite a quantidade total de páginas"
+          /><br /><br />
+
+          <input class="btn1" type="submit" name="enviar" id="botaoDeEnviar" value="Enviar" />
+        
+        
+
+
+        </form>
+      </div>
+      <br /><br /><br />
+    </section>
+
+    <section class="section-form">
+      <br /><br />
+      <div class="container">
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>ISBN#</th>
+              <th>Data da Publicação</th>
+              <th>Páginas</th>
+              <th>Data da Inserção</th>
+              <th>Horário da Inserção</th>
+            </tr>
+          </thead>
+          <tbody id="resposta"> </tbody>
+        </table>
+        <br />
+        
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
