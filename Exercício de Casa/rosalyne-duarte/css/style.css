@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,
+ul,
+li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+}
+/*-------MENU------*/
+.nav{
+    align-items: center;
+    background-color:grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+    
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+    background: tomato;
+}
+/*--- Formulário ---*/
+form{
+    color: black;
+}
+label{
+    background-color: rgb(15, 134, 155);
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+.btn1{
+    width: 50%;
+    text-align: center;
+    margin-left: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+.section-inclusao{
+    background: 
+    url(../img/library2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 105vh;
+}
+
+
+/*--- Tabela ---*/
+table{
+width: 100%}
+table, 
+td{
+    border: 1px solid black;
+}
+th, td {
+    padding: 15px;
+}
+.btn2{
+    text-align: center;
+    font-size: 1em;
+    background-color: rgb(136, 54, 54);
+    color:white
+}
+.section-form{
+    background-color: cyan;
+}

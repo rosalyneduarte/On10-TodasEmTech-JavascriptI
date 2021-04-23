@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            background-color: rgb(245, 201, 245);
+        }
+        form{
+            border: 2px solid black;
+            width: 400px;
+            height: 150px;
+            text-align: center;
+            font-size: large;
+        }
+    </style>
 </head>
 <body>
 
+    <form action="envio_dados"<br>
+        <label> Por favor, digite o seu nome: </label> <br> <br>
+        <input type="text" name="nome" id="nomeDaPessoa" placeholder="Nome e Sobrenome"> <br> <br>
+
+        <button type="submit" name="enviar" id="botaoDeEnviar" value="Enviar"> Salvar Dados </button> <br><br>
+        <div id=resposta> </div>
+    </form>
+
+    
+
+<script src="./js/script.js"></script>
 </body>
 </html>
